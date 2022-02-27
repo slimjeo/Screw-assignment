@@ -1,0 +1,63 @@
+[
+  {
+    "description": "    Application Regression",
+    "keyword": "Feature",
+    "name": "End to end Ecommerce validation",
+    "line": 1,
+    "id": "end-to-end-ecommerce-validation",
+    "tags": [],
+    "uri": "ecommerce.feature",
+    "elements": [
+      {
+        "id": "end-to-end-ecommerce-validation;ecommerce-validation",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Ecommerce Validation",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I open ecommerce page accept the cookies",
+            "result": {
+              "status": "passed",
+              "duration": 6920000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I pick nearby store close to DA122PF",
+            "result": {
+              "status": "passed",
+              "duration": 47462000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I add item to cart",
+            "result": {
+              "status": "passed",
+              "duration": 16633000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I checked out",
+            "result": {
+              "status": "passed",
+              "duration": 25481000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
